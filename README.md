@@ -22,8 +22,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### Testing
 
 I would have liked to test the contexts behaviour during requests, we have the properties `slow` and `noResponse` which both respond to how a request behaves.
-The tests are set up with [Mock Service Worker](https://mswjs.io) and should suffice to be used for testing these parts as well.
+The tests are set up with [React Testing Library](https://testing-library.com/), [Mock Service Worker](https://mswjs.io) and should suffice to be used for testing these parts as well.
 
 ### Features
 
-There's a lot of data in the API which can be visualised, but doing so on the `/details` page simply takes a bunch of time since I would like to do it in a clean and good looking manner. 
+There's a lot of data in the API to be visualised, but doing so on the `/details` page simply takes a lot of time since I would like to do it in a clean and good looking manner. 
