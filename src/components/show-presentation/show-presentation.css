@@ -1,0 +1,23 @@
+.show-presentation {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.show-presentation > img {
+  margin-right: var(--space-lg);
+}
+
+.show-presentation h1 {
+  text-align: left;
+  margin-top: 0;
+}
+
+.information-row {
+  display: flex;
+  margin-bottom: var(--space-md);
+}
+
+.information-row img {
+  margin-right: var(--space-sm);
+  padding-top: 2px;
+}

@@ -1,0 +1,14 @@
+html {
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+
+  --color-primary: #e63946;
+  --color-error: #ffbdbd;
+  --color-text: #3a2f2f;
+  --color-dark-grey: #555;
+  --color-grey: #aaa;
+  --color-light-grey: #eee;
+}

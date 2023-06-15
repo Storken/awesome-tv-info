@@ -1,3 +1,5 @@
+# Awesome TV Info
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -25,5 +27,3 @@ The tests are set up with [Mock Service Worker](https://mswjs.io) and should suf
 ### Features
 
 There's a lot of data in the API which can be visualised, but doing so on the `/details` page simply takes a bunch of time since I would like to do it in a clean and good looking manner. 
-
-# awesome-tv-info

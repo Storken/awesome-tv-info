@@ -1,0 +1,6 @@
+.generic-error {
+  margin: var(--space-xl) 0;
+  background-color: var(--color-error);
+  padding: var(--space-md) var(--space-lg);
+  text-align: center;
+}
