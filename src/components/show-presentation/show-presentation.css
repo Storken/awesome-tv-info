@@ -1,10 +1,26 @@
 .show-presentation {
   display: flex;
-  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .show-presentation {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 }
 
 .show-presentation > img {
   margin-right: var(--space-lg);
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .show-presentation > img {
+    width: initial;
+    height: initial;
+  }
 }
 
 .show-presentation h1 {
