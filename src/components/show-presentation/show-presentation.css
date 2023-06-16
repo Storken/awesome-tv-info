@@ -18,8 +18,8 @@
 
 @media (min-width: 768px) {
   .show-presentation > img {
-    width: initial;
-    height: initial;
+    width: 180px;
+    height: 300px;
   }
 }
 
